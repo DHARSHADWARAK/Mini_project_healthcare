@@ -3,4 +3,8 @@ uvicorn
 motor
 fastapi
 python-jose
-passlib
+passlib[bcrypt]==1.7.4
+pydantic-settings
+python-dotenv
+pydantic[email]
+bcrypt
